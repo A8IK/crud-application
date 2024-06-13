@@ -3,15 +3,22 @@ This project aimed to create a dynamic data management application using React.j
 
 # Features Implemented
 Data Management: Implemented CRUD operations using Axios for API interactions also used SQLite.
+
 Form Handling: Managed form inputs for adding and editing data.
+
 Pagination: Implemented pagination to display large datasets efficiently.
+
 Sorting: Sorted data based on year, month, and date criteria.
+
 Styling with Tailwind CSS: Utilized Tailwind CSS for responsiveness.
 
 # Technologies Used
 React: Used for building the frontend user interface.
+
 Tailwind CSS: Used for styling and responsive design.
+
 Axios: Used for handling API requests to the backend server.
+
 SQLAlchemy: For simplifies database integration and management which work with SQLite.
 
 # Lessons Learned
