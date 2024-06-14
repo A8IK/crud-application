@@ -1,8 +1,45 @@
-# Getting Started with Create React App
+# Overview
+This project aimed to create a dynamic data management application using React.js(frontend), Python(backend) and Tailwind CSS. The application features included CRUD operations (Create, Read, Update, Delete) for financial data, pagination, sorting, and styling with Tailwind CSS.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Features Implemented
+Data Management: Implemented CRUD operations using Axios for API interactions also used SQLite.
 
-## Available Scripts
+Form Handling: Managed form inputs for adding and editing data.
+
+Pagination: Implemented pagination to display large datasets efficiently.
+
+Sorting: Sorted data based on year, month, and date criteria.
+
+Styling with Tailwind CSS: Utilized Tailwind CSS for responsiveness.
+
+# Technologies Used
+React: Used for building the frontend user interface.
+
+Tailwind CSS: Used for styling and responsive design.
+
+Axios: Used for handling API requests to the backend server.
+
+SQLAlchemy: For simplifies database integration and management which work with SQLite.
+
+# Lessons Learned
+1. Learned effective state management in React to ensure data consistency and UI responsiveness.
+2. Tailwind CSS utility classes for rapid UI development without custom CSS.
+3. Improved skills in handling CRUD operations with Axios and asynchronous JavaScript.
+4. Gained insights into designing user-friendly interfaces with attention to usability and aesthetics.
+5. As I am first time using python in backend I have learned how to connect and manage lots of data.
+6. More understanding about frameworks and libraries such as React, react-charjs2, Flask, and SQLAlchemy.
+
+# Challenges
+Data Handling and Synchronization: Data displayed in the frontend (React) remained synchronized with data stored in the backend (Flask with SQLite). This required implementing mechanisms for fetching data, handling updates (CRUD operations), and ensuring that changes made by users in the frontend were accurately reflected in the database. And sorting data is another challenges for me. I just sorted data by year and month only but couldn't make with date properly.
+
+Frontend-Backend Communication: As I am first time using python in backend so I had to research and learn about this connection from different sources. 
+
+User Interface Design and Interaction: Imagination a user-friendly interface (UI) that provides intuitive data entry was challenging. This involved implementing responsive design, ensuring accessibility, and optimizing performance and usability.
+
+Error Handling and Validation: Implementing robust error handling mechanisms both in the frontend and backend was crucial. This included validating user inputs, handling server-side errors (e.g., database query failures), and providing meaningful feedback to users to facilitate smooth interaction and prevent data inconsistencies.
+
+
+# Getting Started with React App
 
 In the project directory, you can run:
 
@@ -14,56 +51,18 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Getting Start Python
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+In the project directory (backend) you can run:
 
-### `npm run eject`
+## python app.py
+You can open the server for check http://127.0.0.1:5000/
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 ### `npm run build` fails to minify
 
